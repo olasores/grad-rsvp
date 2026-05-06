@@ -24,7 +24,7 @@ export default function HeroSection() {
       <div className="hero-subtitle">Graduation Ceremony</div>
 
       <p className="hero-event-info">
-        May 19 • 5PM start • Celebration till late
+        May 19 • 5PM until closing time • Celebration till late
       </p>
 
       <p className="hero-description">

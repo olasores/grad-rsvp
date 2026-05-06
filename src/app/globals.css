@@ -5,6 +5,8 @@
   --baby-pink: #FFACC7;
   --baby-yellow: #FFEAA7;
   --cream: #FFF9F0;
+  --user-pink: #fae3f2;
+  --soft-lavender: #b4b4e2;
   --deep-blue: #5B8FA8;
   --deep-pink: #E08BA5;
   --deep-yellow: #D4B96A;
@@ -243,7 +245,7 @@ body {
 
 .main-page {
   min-height: 100vh;
-  background: linear-gradient(170deg, var(--cream) 0%, #F0F4FF 35%, #FFF5F8 65%, #FFFCF0 100%);
+  background: linear-gradient(170deg, var(--cream) 0%, var(--user-pink) 18%, #F0F4FF 40%, #FFF5F8 65%, #FFFCF0 100%);
   overflow: hidden;
   position: relative;
   transition: opacity 0.8s ease, transform 0.8s ease;
@@ -359,7 +361,7 @@ body {
   text-transform: uppercase;
   background: linear-gradient(135deg, var(--baby-pink), var(--baby-blue));
   color: var(--dark);
-  box-shadow: 0 8px 32px rgba(168, 216, 234, 0.3);
+  box-shadow: 0 8px 32px rgba(168, 216, 234, 0.22), 0 0 0 6px rgba(180,180,226,0.06);
 }
 
 .rsvp-btn:hover {
@@ -446,6 +448,8 @@ body {
   justify-content: center;
   margin: 0 auto 14px;
   font-size: 26px;
+  border: 1px solid rgba(180,180,226,0.08);
+  box-shadow: 0 10px 30px rgba(180,180,226,0.06);
 }
 
 .detail-label {
@@ -652,7 +656,7 @@ body {
 .site-footer {
   text-align: center;
   padding: 32px 24px 48px;
-  border-top: 1px solid rgba(168, 216, 234, 0.3);
+  border-top: 1px solid rgba(180,180,226,0.18);
 }
 
 .footer-quote {
